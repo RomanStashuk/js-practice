@@ -8,5 +8,5 @@ const smallestDivisor = (n) => {
     return divisorCount(2)
 }
 
-
-console.log(smallestDivisor(15))
+// Tests
+console.log(smallestDivisor(15));

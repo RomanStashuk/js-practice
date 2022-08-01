@@ -1,12 +1,11 @@
 const smallestDivisor = (n) => {
-    let divisorCount = (divisor) => {
-        if (n % divisor === 0) {
-            return divisor;
-        }
-        return divisorCount(divisor + 1);
+    const iter = (d) => {
+        if (d > n / 2) return n;
+        if (n % d === 0) return d;
+        return iter(++d);
     }
-    return divisorCount(2)
+    return iter(2);
 }
 
 // Tests
-console.log(smallestDivisor(15));
+console.log(smallestDivisor(7));

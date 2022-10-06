@@ -2,15 +2,16 @@
   "name": "js-practice",
   "version": "1.0.0",
   "description": "Моє виконання різних практичних задач на Java Script",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "RomanStashuk <romanstashuk1@gmail.com> (https://github.com/RomanStashuk)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RomanStashuk/js-practice.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RomanStashuk/js-practice/issues"
